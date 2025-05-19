@@ -15,7 +15,7 @@ export const aj = arcjet({
             // block all bots except search engines
             allow: [
                 "CATEGORY:SEARCH_ENGINE"
-                //full list: https://arcjet.com/bot-list
+                
             ]
         }),
         tokenBucket({
